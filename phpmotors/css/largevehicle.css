@@ -1,0 +1,139 @@
+@media only screen and (min-width: 1400px){
+    html {
+        background-image: url("../images/checkerboard.jpg");
+    }
+    body {
+        background-color:white;
+    }
+    header {
+        display:flex;
+        
+        
+    }
+    
+    .cup p {
+        font-size:25px;
+    }
+    main .cup button{
+         position:absolute;
+         margin-top:150px;
+         width:200px;
+         margin-left:100px;
+         
+    }
+    header h1 {
+        margin-left:65%;}
+    body {
+        max-width:1200px;
+        margin:0 auto;
+     
+    }
+    body nav ul{
+        display:flex;
+        flex-direction:row;
+        background-color:#3a3a3a;
+        color:white;
+        
+        
+    }
+    .phphead h1{
+        margin-left:50px;
+    }
+    nav ul li
+    { list-style-type: none;
+    margin-right:30px;}
+ 
+    /*BODY 3 cups Holder**/
+    main div .cup {
+        max-width:300px;
+        margin-left:50px;
+    }
+    .main-2 {
+        display:grid;
+        grid-template-columns:50% 50%;
+         
+    }
+    
+    .upgrade {
+        display:grid;
+        grid-template-columns:50% 50%;
+    }
+    .upgrade h3 {
+        width:300px;
+    }
+    footer{
+        text-align:center;
+        border-top: 6px solid black;
+    }
+    div .dolor h3 {
+        font-size:40px;
+    }
+    .dolor {
+        margin-top:90px;
+        font-size:30px;
+    }
+    .dolups{
+        text-align:center;
+    }
+    .dolups img{
+        margin-left:10px;
+    }
+
+    /* For vehicle display in classification view */
+	#inv-display {
+		flex-flow: row wrap;
+		justify-content: flex-start;
+        
+	}
+   
+	#inv-display h2{
+		font-size: 1rem;
+	}
+
+	#inv-display li {
+		max-width: 200px;
+		flex: 1 0 auto;
+		text-align: center;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+ 
+	}
+    div.vehiclespace ul li{
+        margin-left:30px;
+        margin-right:30px;
+
+    }
+      
+	#inv-display div {
+		width: 100%;
+	}
+
+    section.vehicleDetails {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    div.imgDiv p{
+        font-size:20px;
+
+    }
+    main .imgDiv{
+        font-size:25px;
+    }
+
+
+    div.infoDiv p{
+        font-size:20px;
+      margin-right:30px;
+
+    }
+    div .infoDiv h2{
+        font-size:25px;
+        margin-top:-45px;
+    }
+    
+
+
+
+}

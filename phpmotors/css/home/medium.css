@@ -1,0 +1,12 @@
+@media all and (min-width:35rem){
+
+nav button {
+    display:none;
+}
+nav ul#primaryNav {
+    display:flex;
+    padding-top:0;
+    margin-left:2vw;
+    font-size:75%;
+    }
+}

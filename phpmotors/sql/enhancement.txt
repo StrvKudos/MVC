@@ -1,0 +1,33 @@
+--query 1
+SELECT clientLastname FROM clients WHERE  clientLastname = "stark";
+
+
+--query2
+INSERT INTO clients (clientFirstname, clientLastname, clientEmail, clientPassword, clientLevel, comment) VALUES ('Tonny','Stark','tony@starkent.com','IamIronM@n',1,'I am the real ironman');
+
+--query3
+UPDATE clients
+SET clientLevel = "3"
+WHERE clientFirstname = "stark";
+
+--query4
+UPDATE inventory
+SET invDescription = 'small interior'
+WHERE invMAKE = "Hummer";
+
+--qury5
+SELECT invModel
+FROM inventory
+INNER JOIN carclassification ON inventory.classificationId = carclassification.classificationId
+WHERE classificationName = "SUV";
+
+--query 6
+DELETE
+FROM inventory 
+WHERE invMake = "Jeep";
+
+
+
+--query7
+UPDATE inventory
+SET invImage = concat ("/","/phpmotors"), invThumbnail = concat("/","/phpmotors");
